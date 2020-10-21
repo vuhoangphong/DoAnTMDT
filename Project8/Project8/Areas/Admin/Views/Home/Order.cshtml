@@ -1,0 +1,59 @@
+﻿@model IEnumerable<WebBanSach.Models.Data.DonDatHang>
+
+@{
+    ViewBag.Title = "Order";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Quản lý đơn hàng</h2>
+
+<table class="table" id="myTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaDDH)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KhachHang.TenKH)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayDat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayGiao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TinhTrang)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="row_@item.MaDDH">
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaDDH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.KhachHang.TenKH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayDat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayGiao)
+                </td>
+                <td>
+                    <a href="#">@(item.TinhTrang ? "Chưa giao" : "Đã giao")</a>
+                </td>
+                <td>
+                    @Html.ActionLink("Xem", "DetailsOrder", new { id = item.MaDDH })
+                </td>
+            </tr>
+        }
+    </tbody>
+    
+
+</table>

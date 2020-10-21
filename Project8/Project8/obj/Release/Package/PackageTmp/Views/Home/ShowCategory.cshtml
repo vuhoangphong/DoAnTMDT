@@ -1,0 +1,8 @@
+﻿@model IEnumerable<WebBanSach.Models.Data.TheLoai>
+
+<div  class="text-links categories-content metro-dropdown-menu; level-0 bold2">
+    @foreach (var item in Model)
+    {
+        <a style="color:#087BB0" href="/Home/ThemesBook/@item.MaLoai" class="list-group-item">@item.TenLoai</a>
+    }
+</div>
