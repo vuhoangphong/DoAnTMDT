@@ -375,66 +375,68 @@ C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\bin\Newtonsoft.Json.xml
 C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\obj\Debug\WebBanSach.csprojResolveAssemblyReference.cache
 C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\obj\Debug\Project8.dll
 C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\obj\Debug\Project8.pdb
-D:\E\github\DoAnTMDT\Project8\Project8\bin\ApplicationInsights.config
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\csc.exe
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\System.Collections.Immutable.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\System.Reflection.Metadata.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\vbc.exe
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\VBCSCompiler.exe
-D:\E\github\DoAnTMDT\Project8\Project8\bin\roslyn\VBCSCompiler.exe.config
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Project8.dll.config
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Project8.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Project8.pdb
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Antlr3.Runtime.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\EntityFramework.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\EntityFramework.SqlServer.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\log4net.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.Agent.Intercept.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.DependencyCollector.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.PerfCounterCollector.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.ServerTelemetryChannel.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.Web.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.WindowsServer.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.ApplicationInsights.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.Web.Infrastructure.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Newtonsoft.Json.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\PagedList.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\PagedList.Mvc.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.Helpers.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.Mvc.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.Optimization.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.Razor.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.Deployment.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.Razor.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\WebGrease.dll
-D:\E\github\DoAnTMDT\Project8\Project8\bin\EntityFramework.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\EntityFramework.SqlServer.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\log4net.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.DependencyCollector.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.ServerTelemetryChannel.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.Web.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.WindowsServer.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.ApplicationInsights.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\PagedList.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\PagedList.Mvc.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.Helpers.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.Mvc.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.Optimization.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.Razor.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.Deployment.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.Razor.xml
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Antlr3.Runtime.pdb
-D:\E\github\DoAnTMDT\Project8\Project8\bin\Newtonsoft.Json.xml
-D:\E\github\DoAnTMDT\Project8\Project8\obj\Debug\WebBanSach.csprojResolveAssemblyReference.cache
-D:\E\github\DoAnTMDT\Project8\Project8\obj\Debug\Project8.dll
-D:\E\github\DoAnTMDT\Project8\Project8\obj\Debug\Project8.pdb
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\ApplicationInsights.config
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\csc.exe
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\vbc.exe
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\VBCSCompiler.exe
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Project8.dll.config
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Project8.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Project8.pdb
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Antlr3.Runtime.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\EntityFramework.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\EntityFramework.SqlServer.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\log4net.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.Web.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.ApplicationInsights.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Newtonsoft.Json.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\PagedList.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\PagedList.Mvc.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.Helpers.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.Mvc.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.Optimization.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.Razor.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.Deployment.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.Razor.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\WebGrease.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\EntityFramework.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\EntityFramework.SqlServer.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\log4net.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.Web.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.ApplicationInsights.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\PagedList.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\PagedList.Mvc.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.Helpers.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.Mvc.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.Optimization.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.Razor.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.Deployment.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.Razor.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Antlr3.Runtime.pdb
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\bin\Newtonsoft.Json.xml
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\obj\Debug\WebBanSach.csprojAssemblyReference.cache
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\obj\Debug\WebBanSach.csproj.CoreCompileInputs.cache
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\obj\Debug\WebBanSach.csproj.CopyComplete
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\obj\Debug\Project8.dll
+C:\Users\loc\Desktop\sang thu 6\DoAnTMDT\Project8\Project8\obj\Debug\Project8.pdb
