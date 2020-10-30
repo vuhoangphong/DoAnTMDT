@@ -32,6 +32,7 @@
 
         public int MaKH { get; set; }
         public int? ThanhToan { get; set; }
+        public int? Tracking { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ChiTietDDH> ChiTietDDHs { get; set; }

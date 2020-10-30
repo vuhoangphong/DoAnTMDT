@@ -1,0 +1,56 @@
+﻿@model IEnumerable<WebBanSach.Models.Data.DonDatHang>
+@{
+    ViewBag.Title = "TrackingOder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Đơn Hàng Của Bạn</h2>
+@if (Model.Count() != 0)
+{
+    <table class="table" id="myTable">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.MaDDH)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NgayDat)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NgayGiao)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TinhTrang)
+                </th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model.Reverse())
+            {
+                <tr id="row_@item.MaDDH">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaDDH)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NgayDat)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NgayGiao)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Xem", "TrackingOderDetails","Cart", new { id = item.MaDDH })
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+
+    </table>
+}
+else
+{
+    <div style="color:red;margin-top:50px;">Xin Lỗi Bạn Chưa Có Đơn Hàng Nào !</div>
+}

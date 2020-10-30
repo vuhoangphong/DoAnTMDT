@@ -339,5 +339,14 @@ namespace WebBanSach.Controllers
             return View();
         }
 
+        public ActionResult TrackingOder()
+        {
+            List<DonDatHang> donDatHang = db.DonDatHangs.Where(p => p.MaKH == UserController.khachhangstatic.MaKH).ToList();
+            return View(donDatHang);
+        }
+        public ActionResult TrackingOderDetails()
+        {
+            return View();
+        }
     }
 }
