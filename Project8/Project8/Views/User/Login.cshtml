@@ -4,9 +4,9 @@
     @if (Session["User"] == null)
     {       
             
-        <li><a href="/User/Register"><i class="fa fa-sign-in" aria-hidden="true"></i> Đăng kí</a></li>
+        <li><a href="/User/Register" style="color: #525151;"> Đăng kí</a></li>
             <li class="dropdown">
-                <a href="/User/Login" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-unlock" aria-hidden="true"></i> Đăng nhập <b class="caret"></b></a>
+                <a href="/User/Login" style="color: #525151; background:none" class="dropdown-toggle" data-toggle="dropdown"> Đăng nhập <b class="caret"></b></a>
                 <ul class="dropdown-menu" style="padding: 15px;min-width: 250px">
                     <li>
                         <div class="row">
@@ -37,7 +37,7 @@
                 </ul>
             </li>
             <li>
-                <a href="/Admin/Login"><i class="fa fa-user-secret" aria-hidden="true"></i></a>
+                <a href="/Admin/Login"><i class="fa fa-user-secret" aria-hidden="true" style="color: #525151;"></i></a>
             </li>
             @Html.Action("CartHeader", "Cart")
     }
