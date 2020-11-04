@@ -372,7 +372,6 @@ C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.D
 C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\bin\System.Web.WebPages.Razor.xml
 C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\bin\Antlr3.Runtime.pdb
 C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\bin\Newtonsoft.Json.xml
-C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\obj\Debug\WebBanSach.csprojResolveAssemblyReference.cache
 C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\obj\Debug\Project8.dll
 C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\obj\Debug\Project8.pdb
 D:\E\github\DoAnTMDT\Project8\Project8\bin\ApplicationInsights.config
@@ -568,3 +567,4 @@ D:\Study\Project_GH_VuHoangPhong\DoAnTMDT\Project8\Project8\obj\Debug\WebBanSach
 D:\Study\Project_GH_VuHoangPhong\DoAnTMDT\Project8\Project8\obj\Debug\WebBanSach.csproj.CopyComplete
 D:\Study\Project_GH_VuHoangPhong\DoAnTMDT\Project8\Project8\obj\Debug\Project8.dll
 D:\Study\Project_GH_VuHoangPhong\DoAnTMDT\Project8\Project8\obj\Debug\Project8.pdb
+C:\Users\unfor\Desktop\TMDT\DoAnTMDT\Project8\Project8\obj\Debug\WebBanSach.csprojResolveAssemblyReference.cache

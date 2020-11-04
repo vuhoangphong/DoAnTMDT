@@ -188,6 +188,7 @@
     <Compile Include="Models\Data\BSDBContext.cs" />
     <Compile Include="Models\Data\ChiTietDDH.cs" />
     <Compile Include="Models\Data\DonDatHang.cs" />
+    <Compile Include="Models\Data\DonDatHang_Ajax.cs" />
     <Compile Include="Models\Data\KhachHang.cs" />
     <Compile Include="Models\Data\LienHe.cs" />
     <Compile Include="Models\Data\NhaXuatBan.cs" />

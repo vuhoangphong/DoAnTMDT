@@ -8,7 +8,9 @@ using WebBanSach.Models.Data;
 using WebBanSach.Models.Process;
 using WebBanSach.Models;
 using System.Web.Script.Serialization;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Project8.Models.Data;
 using Project8.Models.Process;
 
 namespace WebBanSach.Controllers
@@ -347,6 +349,23 @@ namespace WebBanSach.Controllers
         public ActionResult TrackingOderDetails()
         {
             return View();
+        }
+
+        public JsonResult loadOrder()
+        {
+            //if (id!=null)
+            //{
+            db.Configuration.ProxyCreationEnabled = false;
+            var donDatHang = db.DonDatHangs.ToList();
+            
+            return Json(new {data= donDatHang }
+                , JsonRequestBehavior.AllowGet);
+            //}
+            //else
+            //{
+            //    List<DonDatHang> donDatHang = db.DonDatHangs.Where(p => p.MaKH == UserController.khachhangstatic.MaKH).ToList();
+            //    return Json(donDatHang, JsonRequestBehavior.AllowGet);
+            //}
         }
     }
 }
