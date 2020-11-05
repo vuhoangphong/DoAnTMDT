@@ -589,6 +589,13 @@ namespace WebBanSach.Areas.Admin.Controllers
             return View(result);
         }
 
+        public JsonResult ThayDoiTrangThaiDonHang(int maDDH,int? id)
+        {
+            var donHang = db.DonDatHangs.FirstOrDefault(p => p.MaDDH == maDDH);
+            donHang.Tracking = id;
+            var value = db.SaveChanges();
+            return Json(value,JsonRequestBehavior.AllowGet);
+        }
         #endregion
 
     }
