@@ -35,7 +35,7 @@
                     </td>
                     <td data-th="Price">@item.sach.GiaBan.GetValueOrDefault(0).ToString("N0") VND</td>
                     <td data-th="Quantity">
-                        <input type="number" class="txtQuantity" data-id="@item.sach.MaSach" value="@item.Quantity">
+                        <input type="number" min="1" class="txtQuantity" data-id="@item.sach.MaSach" value="@item.Quantity">
                     </td>
                     <td data-th="Subtotal" class="text-center">@((item.sach.GiaBan.GetValueOrDefault(0) * item.Quantity).ToString("N0")) VND</td>
                     <td class="actions" data-th="">

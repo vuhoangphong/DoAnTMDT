@@ -589,12 +589,45 @@ namespace WebBanSach.Areas.Admin.Controllers
             return View(result);
         }
 
-        public JsonResult ThayDoiTrangThaiDonHang(int maDDH,int? id)
+        public JsonResult ThayDoiTrangThaiDonHang(int maDDH, int? id)
         {
-            var donHang = db.DonDatHangs.FirstOrDefault(p => p.MaDDH == maDDH);
-            donHang.Tracking = id;
-            var value = db.SaveChanges();
-            return Json(value,JsonRequestBehavior.AllowGet);
+            if(id == 3)
+            {
+                var donHang = db.DonDatHangs.FirstOrDefault(p => p.MaDDH == maDDH);
+                donHang.Tracking = id;
+                donHang.ThanhToan = 1;
+                var value = db.SaveChanges();
+                return Json(value, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                var donHang = db.DonDatHangs.FirstOrDefault(p => p.MaDDH == maDDH);
+                donHang.Tracking = id;
+                var value = db.SaveChanges();
+                return Json(value, JsonRequestBehavior.AllowGet);
+            }            
+        }
+
+        public static IEnumerable<SelectListItem> GetTracking()
+        {
+          
+            List<SelectListItem> items = new List<SelectListItem>();
+            {
+
+                items.Add(new SelectListItem() { Text = "Chọn Trạng Thái", Value = "0" });
+                items.Add(new SelectListItem() { Text = "Đã Đóng Gói", Value = "1" });
+                items.Add(new SelectListItem() { Text = "Đang Giao", Value = "2" });
+                items.Add(new SelectListItem() { Text = "Giao Thành Công", Value = "3" });
+
+
+            };
+
+
+            SelectList lst = new SelectList(items, "Value", "Text");
+            
+            return lst;
+
+
         }
         #endregion
 

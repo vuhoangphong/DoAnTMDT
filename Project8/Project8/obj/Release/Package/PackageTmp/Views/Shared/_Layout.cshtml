@@ -8,7 +8,7 @@
     <meta name="author" content="VHP">
     <title>Book Store Shop</title>
     <!-- Bootstrap Core CSS -->
-    <link href="/Content/Client/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/Client/css/bootstrap.css" rel="stylesheet" />
     <!-- Custom CSS -->
     <link href="/Content/Client/css/shop-homepage.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -24,9 +24,12 @@
     @*!DataTables*@
     <link href="/Content/Client/css/footer.css" rel="stylesheet" />
 </head>
-<body>
+<body style="background-color: #F0F0F0;border-bottom: none;">
     <!-- Navigation -->
-    <nav style="background-color: #6699FF" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8722341.js"></script>
+    <!-- End of HubSpot Embed Code -->
+    <nav style="background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);border-radius: 0px 0px 30px 30px;border:none" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -41,11 +44,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="/" style="font-size:25px;"><i class="fa fa-home" aria-hidden="true"></i> WEBBANSACH</a>
+                        <a href="/" style="font-size:25px; color:#525151;"><i class="fa fa-home" aria-hidden="true"></i> WEBBANSACH</a>
+                        
+                        
                     </li>
 
                     <li>
-                        <a href="/Home/Contact"><i class="fa fa-phone-square" aria-hidden="true"></i> Liên hệ</a>
+                        <a href="/Home/Contact" style="color:#525151"><i class="fa fa-phone-square" aria-hidden="true" style="color:#525151"></i> Liên hệ</a>
                     </li>
                 </ul>
                 <div class="col-sm-3 col-md-3">
@@ -53,9 +58,9 @@
                     {
                         <div class="input-group">
                             @*<input style="width: 370px;" type="text" class="form-control" placeholder="Tìm kiếm sách..." name="search">*@
-                            @Html.TextBox("txtSearch", "", htmlAttributes: new { @class = "form-control", @placeholder = "Tìm kiếm sách...", @style = "width: 370px" })
+                            @Html.TextBox("txtSearch", "", htmlAttributes: new { @class = "form-control", @placeholder = "Tìm kiếm sách...", @style = "width: 370px;background: #FAFAFA;border-radius: 40px;" })
                             <span class="input-group-btn">
-                                <button style="background: #087BE1;" class="btn btn-default" type="submit">
+                                <button style="background: #e658588c; border-radius: 40px;" class="btn btn-default" type="submit">
                                     <span style="color:white">Tìm</span>
                                 </button>
                             </span>
@@ -75,65 +80,68 @@
         @RenderBody()
     </div>
     <!-- /.container -->
-    <div class="container">
+    <div class="container-fluid" style="padding-left:0px;padding-right:0px">
         <hr>
+        <div class="container">
+            <footer>
+              
+               
+
+
+            </footer>
+
+        </div>  
         <!-- Footer -->
         <footer>
-            <div style="background-color: #6699FF; padding-bottom: 3px;" class="footer" id="footer">
+            <div style="background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);border-radius: 39px 39px 0px 0px; " class="footer" id="footer">
                 <div class="container">
+                    
                     <div class="row">
-                        <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                            <h3> Về chúng tôi </h3>
+                        
+                        <div class="col-lg-3  col-md-2 col-sm-4 col-xs-6">
+                            <h3 style="color:#515252;"> Trợ giúp </h3>
                             <ul>
-                                <li> <a href="https://www.facebook.com/vhp17">Vũ Hoàng Phong(VHP)</a> </li>
-                                <li> <a href="https://www.facebook.com/profile.php?id=100009263859905&fref=hovercard&hc_location=chat">Đỗ Hoàng Đại</a> </li>
-                                <li> <a href="https://www.facebook.com/giaminh.hua">Gia Minh Hứa (TQ)</a> </li>
+                                <li> <a href="/Home/QuyDinh" style="color:#515252;font-size:1.6rem"> Qui định sử dụng </a> </li>
+                                <li> <a href="/Home/Thanhtoan" style="color:#515252;font-size:1.6rem"> Phương thức thanh toán </a> </li>
+                                <li> <a href="/Home/VanChuyen" style="color:#515252;font-size:1.6rem"> Phương thức vận chuyển </a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3  col-md-2 col-sm-4 col-xs-6">
+                            <h3 style="color:#515252"> Hỗ trợ </h3>
+                            <ul>
+                                <li> <a href="/Home/DoiTra" style="color:#515252;font-size:1.6rem"> Chính sách đổi trả </a> </li>
+                                <li> <a href="/Home/Help" style="color:#515252;font-size:1.6rem"> Các câu hỏi thường gặp </a> </li>
                             </ul>
                         </div>
                         <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                            <h3> Trợ giúp </h3>
+                            <h3 style="color:#515252"> Tài khoản </h3>
                             <ul>
-                                <li> <a href="/Home/QuyDinh"> Qui định sử dụng </a> </li>
-                                <li> <a href="/Home/Thanhtoan"> Phương thức thanh toán </a> </li>
-                                <li> <a href="/Home/VanChuyen"> Phương thức vận chuyển </a> </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                            <h3> Hỗ trợ </h3>
-                            <ul>
-                                <li> <a href="/Home/DoiTra"> Chính sách đổi trả </a> </li>
-                                <li> <a href="/Home/Help"> Các câu hỏi thường gặp </a> </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                            <h3> Tài khoản </h3>
-                            <ul>
-                                <li> <a href="/User/Register"> Đăng ký thành viên</a> </li>
+                                <li> <a href="/User/Register" style="color:#515252;font-size:1.6rem"> Đăng ký thành viên</a> </li>
                             </ul>
                         </div>
 
                         <div class="col-xs-3">
                             <div @*class="col-lg-3  col-md-3 col-sm-6 col-xs-12 "*@>
-                                <h3> Follow Us </h3>
+                                <h3 style="color:#515252"> Follow Us </h3>
                                 @*<ul>
-                                        <li>
-                                            <div class="input-append newsletter-box text-center">
-                                                <input type="text" class="form-control" placeholder="Email..." />
-                                                <button class="btn-warning btn-block btn-md" type="button"> ĐĂNG KÝ <i class="fa fa-long-arrow-right"> </i> </button>
-                                            </div>
-                                        </li>
-                                    </ul*@
+                                    <li>
+                                        <div class="input-append newsletter-box text-center">
+                                            <input type="text" class="form-control" placeholder="Email..." />
+                                            <button class="btn-warning btn-block btn-md" type="button"> ĐĂNG KÝ <i class="fa fa-long-arrow-right"> </i> </button>
+                                        </div>
+                                    </li>
+                                </ul*@
                                 @*<ul class="social">
-                                        <li> <a href="https://goo.gl/fpbZzR"> <i class="fa fa-facebook-official" aria-hidden="true"></i> </a> </li>
-                                        <li> <a href="https://goo.gl/mfjtLE"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a> </li>
-                                    </ul>*@
+                                    <li> <a href="https://goo.gl/fpbZzR"> <i class="fa fa-facebook-official" aria-hidden="true"></i> </a> </li>
+                                    <li> <a href="https://goo.gl/mfjtLE"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a> </li>
+                                </ul>*@
                             </div>
                             <ul class="footer-social ">
                                 <li>
-                                    <a rel="nofollow" href="#" title="Youtube" target="_blank"><i class="fa fa-youtube-play"></i> Youtube</a>
+                                    <a rel="nofollow" href="#" title="Youtube" target="_blank" style="color:#515252;font-size:1.6rem"><i class="fa fa-youtube-play"></i> Youtube</a>
                                 </li>
                                 <li>
-                                    <a rel="nofollow" href="https://www.facebook.com/groups/1966244086967556/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+                                    <a rel="nofollow" href="https://www.facebook.com/groups/1966244086967556/" title="Facebook" target="_blank" style="color:#515252;font-size:1.6rem"><i class="fa fa-facebook-square"></i> Facebook</a>
                                 </li>
 
                             </ul>
@@ -148,10 +156,13 @@
                                 <!-- <a href="https://mixpanel.com/f/partner" class=""><img style="padding-top: 5px;" src="/assets/img/badge_light.png" alt="Mobile Analytics"></a> -->
                             </div>
                         </div>
-                    </div>
-                    <div class="container">
-                        <div style="color: white;">
+                    </div>                  
+                    <div class="container" style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px; position: relative;">
+                        <div style="color: white; position:absolute;color:#515252;font-size:1.6rem">
                             <p>&copy; @DateTime.Now.Year - Đồ Án Phát Triển Bởi Nhóm Sinh Viên Lớp 17DTHA3</p>
+                        </div>
+                        <div class="block" style="margin-left:710px;">
+                            <a href="https://hotro.tiki.vn/hc/vi/articles/115005575826" rel="noreferrer" aria-label=""><img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/bo-cong-thuong-2.png" width="36" alt=""></a><a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=21201" rel="noreferrer" aria-label=""><img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/bo-cong-thuong.svg" width="120" alt=""></a>
                         </div>
                     </div>
                     <!--/.row-->
@@ -161,7 +172,7 @@
             <!--/.footer-->
             @*<div style="background-color: #087BB0" class="footer-bottom">
 
-                </div>*@
+            </div>*@
             <!--/.footer-bottom-->
         </footer>
     </div>

@@ -213,6 +213,8 @@ namespace WebBanSach.Controllers
         public ActionResult Payment(int MaKH,FormCollection f)
         {
             var PMethod = int.Parse(f["PaymentMethod"]);
+            var vanChuyen = int.Parse(f["vanChuyen"]);
+            var tienVanChuyen = vanChuyen == 0 ? Convert.ToDecimal(20000) : Convert.ToDecimal(40000);
             var order = new DonDatHang();
             order.NgayDat = DateTime.Now;
             order.NgayGiao = DateTime.Now.AddDays(3);
@@ -247,7 +249,7 @@ namespace WebBanSach.Controllers
                 }
                 else
                 {
-                    order.ThanhToan = 0;
+                    order.ThanhToan = 0; 
                     var result1 = new OrderProcess().Insert(order);
                     var cart = (List<CartModel>)Session[CartSession];
                     var result2 = new OderDetailProcess();
@@ -263,11 +265,11 @@ namespace WebBanSach.Controllers
 
                         total = cart.Sum(x => x.Total);
                     }
+                    
                     Session[CartSession] = null;
                     return Redirect(ThanhToanMoMo(result1.ToString(), 
                         total.ToString().Substring(0, total.ToString().Length - 5)));
                     
-
                 }
             }
             catch (Exception)
@@ -275,7 +277,7 @@ namespace WebBanSach.Controllers
                 return Redirect("/Cart/Error");
             }
 
-            return new EmptyResult();
+            
 
         }
 

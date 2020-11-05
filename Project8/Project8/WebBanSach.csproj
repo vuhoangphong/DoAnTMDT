@@ -195,6 +195,7 @@
     <Compile Include="Models\Data\Sach.cs" />
     <Compile Include="Models\Data\TacGia.cs" />
     <Compile Include="Models\Data\TheLoai.cs" />
+    <Compile Include="Models\Data\TrackingModel.cs" />
     <Compile Include="Models\IPN.cs" />
     <Compile Include="Models\Process\AdminProcess.cs" />
     <Compile Include="Models\Process\BookProcess.cs" />

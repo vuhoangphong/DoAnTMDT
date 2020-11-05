@@ -5,6 +5,7 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+    using System.Web.Mvc;
 
     [Table("DonDatHang")]
     public partial class DonDatHang
@@ -37,7 +38,7 @@
         
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ChiTietDDH> ChiTietDDHs { get; set; }
-
+        
         public virtual KhachHang KhachHang { get; set; }
     }
 }

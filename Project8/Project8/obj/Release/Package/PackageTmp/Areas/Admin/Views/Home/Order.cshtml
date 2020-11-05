@@ -1,9 +1,7 @@
 ﻿@model IEnumerable<WebBanSach.Models.Data.DonDatHang>
-
-@{
-    ViewBag.Title = "Order";
-    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
-}
+@using WebBanSach.Areas.Admin.Controllers
+@{ ViewBag.Title = "Order";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml"; }
 
 <h2>Quản lý đơn hàng</h2>
 
@@ -22,38 +20,80 @@
             <th>
                 @Html.DisplayNameFor(model => model.NgayGiao)
             </th>
+            <th>Thanh Toán</th>
             <th>
                 @Html.DisplayNameFor(model => model.TinhTrang)
             </th>
+            <th></th>
             <th></th>
         </tr>
     </thead>
 
     <tbody>
+        
         @foreach (var item in Model)
         {
-            <tr id="row_@item.MaDDH">
-                <td>
-                    @Html.DisplayFor(modelItem => item.MaDDH)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.KhachHang.TenKH)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.NgayDat)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.NgayGiao)
-                </td>
-                <td>
-                    <a href="#">@(item.TinhTrang ? "Chưa giao" : "Đã giao")</a>
-                </td>
-                <td>
-                    @Html.ActionLink("Xem", "DetailsOrder", new { id = item.MaDDH })
-                </td>
-            </tr>
+<tr id="row_@item.MaDDH">
+    <td >
+        
+        @item.MaDDH
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.KhachHang.TenKH)
+    </td>
+    <td>
+        @item.NgayDat.ToString("dd/MM/yyyy")
+    </td>
+    <td>
+        @item.NgayGiao.ToString("dd/MM/yyyy")
+    </td>
+        <td>
+            @(item.ThanhToan==1?"Đã Thanh Toán":"Chưa Thanh Toán")
+        </td>
+    <td>
+        @{
+            switch (item.Tracking)
+            {
+                case 0:
+                    // Use the text block below to separate html elements from code
+                    <h5>
+                        Đang Xử Lý
+                    </h5>
+                    break;  // Always break each case
+                case 1:
+                    <h5>
+                        Đã Đóng Gói
+                    </h5>
+                    break;
+                case 2:
+                    <h5>
+                        Đang Giao
+                    </h5>
+                    break;
+                case 3:
+                    <h5>
+                        Giao Thành Công
+                    </h5>
+                    break;
+                default:
+
+                    <h5>Chờ Xử Lý</h5>
+
+                    break;
+            }
         }
+    </td>
+    <td>
+        @Html.DropDownListFor(model=>item.Tracking,new SelectList(HomeController.GetTracking(),"Value","Text"), new { @style="width:155px;",@class = "form-control", @ID = "TrangThai"+item.MaDDH, @onchange = "load("+item.MaDDH+")" })
+    </td>
+    <td>
+        @Html.ActionLink("Xem", "DetailsOrder", new { id = item.MaDDH })
+    </td>
+   
+</tr>}
     </tbody>
-    
+
 
 </table>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="~/Content/Client/js/controller/Order.js"></script>

@@ -3,8 +3,8 @@
 }
 
 <div class="row">
-    <div class="col-md-3">
-                <p style="color:#087BB0" class="fa fa-bars"><i aria-hidden="true"></i><font style="color:#087BB0"> DANH MỤC SÁCH</font></p>
+    <div class="col-md-3" style="border-radius: 26px;border: 1px solid #dea3a3;   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);">
+                <p style="text-align: center; margin: 5px;font-size: 25px;font-weight: 600;"><font style="color:#525151;"> DANH MỤC SÁCH</font></p>
                 @Html.Action("ShowCategory", "Home")
     </div>
     <div style="width:71%" class="col-md-9">
@@ -47,8 +47,20 @@
         @*kết thúc sách nổi bật*@
         <hr />
         @*sách bán chạy*@
-        <h3><font style="color:#087BB0; line-height: 2.1;">Sách Mới Cập Nhật</font></h3>
-        <div style="" class ="row">
+        <div class="row">
+            <div style="position: absolute;width: 800px;height: 70px;left: 19px;top: 443px;background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);border-radius: 50px ;line-height: 2.1;">
+                <div class="row">
+                    <div class="col-lg-1" style="margin: 1rem 0rem 0rem 5rem">
+                        <img style="width: 46px;height: 46px;left: 50px;top: 484px;" src="~/images/topSach.png"></img>
+                    </div>
+                    <div class="col-lg-4" style="margin:2rem 0rem 0 -1rem" >
+                        <h4>Sách mới cập nhật</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="margin-top: 10rem"  class ="row">
             @Html.Action("TopDateBook","Book")            
         </div>
         @*kết thúc sách nổi bật*@

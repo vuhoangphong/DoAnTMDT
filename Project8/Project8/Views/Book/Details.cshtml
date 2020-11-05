@@ -25,11 +25,11 @@
         }
         @if (Model.GiaBan >0)
         {
-            <h3>Giá - @Model.GiaBan.Value.ToString("N0") VND</h3>
+            <h3>Giá : @Model.GiaBan.Value.ToString("N0") VND</h3>
         }
         else
         {
-            <h3>Giá - Liên hệ</h3>
+            <h3>Giá : Liên hệ</h3>
         }
         <br>
         <p><a href="/Cart/AddItem/?id=@Model.MaSach&quantity=1" class="btn btn-warning btn-large">THÊM VÀO GIỎ HÀNG</a></p>
